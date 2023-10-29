@@ -1,5 +1,6 @@
 FROM caddy
 WORKDIR /site
 COPY Caddyfile Caddyfile
-COPY index.html index.html
+COPY *.css .
+COPY *.html .
 CMD ["caddy", "run", "--config", "Caddyfile", "--adapter", "caddyfile"]

@@ -1,0 +1,19 @@
+* {
+    font-size: min(3vw, 18px);
+    font-family: 'Inconsolata', monospace;
+}
+a,
+a:visited {
+    color: #ffaaff;
+}
+body {
+    background-color: #171717;
+    color: white;
+}
+div {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
